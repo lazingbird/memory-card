@@ -1,8 +1,8 @@
-const Scoreboard = ({ score, maxScore }) => {
+const Scoreboard = ({ score, highscore, maxScore }) => {
   return (
     <div id="scoreboard">
       <h1>
-        Score: {score}/{maxScore}
+        SCORE: {score} | <span>HIGH SCORE: {highscore} </span>
       </h1>
     </div>
   );

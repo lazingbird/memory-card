@@ -1,12 +1,12 @@
-const Modal = ({ handleReset, isOver }) => {
+const Modal = ({ handleReset, isOver, modalText }) => {
   {
     if (isOver) {
       return (
         <div id="gameover-modal">
           <div id="modal-container">
-            <h2 id="gameover-text">GAME OVER!</h2>
+            <h2 id="gameover-text">{modalText[0]}</h2>
             <button id="gameover-button" onClick={() => handleReset()}>
-              Play Again
+              {modalText[1]}
             </button>
           </div>
         </div>
