@@ -3,7 +3,7 @@ const Rules = ({ setGameStarted }) => {
     <>
       <div id="bg-image"></div>;
       <div id="rules-container">
-        <h1>Pokemon TCG Memory Game</h1>
+        <h1>Pokémon TCG Memory Game</h1>
         <h2>How to play:</h2>
         <ul>
           <li>Each round has six different Pokémon TCG cards;</li>

@@ -189,7 +189,9 @@ h1 {
 
 .flip-card {
   background-color: transparent;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   perspective: 1000px;
 }
 
@@ -218,6 +220,12 @@ h1 {
   position: absolute;
   background-color: #bbb;
   color: black;
+}
+
+.flip-card-front:hover {
+  bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .flip-card-back {
